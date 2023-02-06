@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.App-list-item {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 180px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 767px) {
+  .App-list-item {
+    min-width: 160px;
+  }
+}
+
+.App-item-image {
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+}
+.App-name-heading {
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: 500;
+}

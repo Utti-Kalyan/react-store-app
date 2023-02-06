@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.tab-list-item {
+  list-style-type: none;
+}
+.tab-item-heading {
+  color: #7b8794;
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  margin-bottom: 3px;
+  border: 0px;
+}
+.change-color {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}
